@@ -7,6 +7,7 @@ int main(void)
 	for (i = 0; i < 4; i++)
 	{
 		printf("\n address : %u sale[%d] = %d", &sale[i], i, sale[i]);
+		// int type만큼 4바이트씩 증가
 
 	}
 
