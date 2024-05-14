@@ -11,4 +11,5 @@ int main(void) {
 	printf("\n\n연산 결과 => %d\n", result);   // 15-3
 
 	getchar();  return 0;
+
 }

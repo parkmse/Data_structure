@@ -29,6 +29,6 @@ element evalPostfix(char* exp) {
 			}
 		}
 	}
-	// 수식 exp에 대한 처리를 마친 후 스택에 남아있는 결과값을 pop하여 반환
+	// 수식 exp에 대한 처리를 마친 후 스택에 남아있는 결과값을 pop하여 반환함
 	return pop();
 }
