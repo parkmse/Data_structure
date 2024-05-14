@@ -17,5 +17,6 @@ int postorder_FolderSize(treeNode* root) {
 		postorder_FolderSize(root->right);
 		FolderSize += root->size;
 	}
+
 	return FolderSize;
 }
